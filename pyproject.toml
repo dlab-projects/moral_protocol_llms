@@ -1,10 +1,18 @@
 [project]
-name = "package_name"
+name = "moral_protocols"
 version = "0.0.1"
-description = "Description of package"
+description = "Analyzing persona prompting in LLMs on moral dilemmas"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "anthropic>=0.104.1",
+    "jupyter>=1.1.1",
+    "jupyterlab>=4.5.7",
+    "matplotlib>=3.10.9",
+    "openai>=2.38.0",
+    "openrouter>=0.9.1",
+    "pandas>=3.0.3",
+]
 
 [build-system]
 requires = ["setuptools>=61.0"]
